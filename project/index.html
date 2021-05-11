@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">    
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Protafolio Tecnologia-Williams</title>
+    </head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Williams ST</h1>
+                <p>En esta web podras encontrar algunas tareas realizadas por mi, durante mi carrera Informatica, espero sean de ayuda y puedas aprender un poco mas.</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="buscar">
+            </form>
+            <div class="categorias" id="categorias">
+            <a href="#" class="activo">Todos</a>
+            <a href="#">Videos</a>
+            <a href="#">Instructivo</a>
+            <a href="#">Infografias</a>
+            </div>
+        </header>
+        <section class="grid" id="grid">
+            <div class="item" 
+            data-categoria="infografias" 
+            data-etiquetas="manipulacion interfaz" 
+            data-descripcion="1.Define probelmas que tiene el usuario con el PC"
+            >
+                <div class="item-contenido">
+                    <img src="img/1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="infografias" 
+            data-etiquetas="manipulacion interfaz" 
+            data-descripcion="1.Define probelmas que tiene el usuario con el PC"
+            >
+                <div class="item-contenido">
+                    <img src="img/2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="infografias" 
+            data-etiquetas="mantenimiento" 
+            data-descripcion="1.Define probelmas que posee el PC"
+            >
+                <div class="item-contenido">
+                    <img src="img/mc.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="videos" 
+            data-etiquetas="mantenimiento" 
+            data-descripcion="1.Define probelmas que posee el PC"
+            >
+                <div class="item-contenido">
+            <video src="video/desk.mp4" height="200" width="500"></video>
+                </div>
+
+                <div class="item" 
+                data-categoria="videos" 
+                data-etiquetas="mantenimiento" 
+                data-descripcion="1.Define probelmas que posee el PC"
+                >   
+                <div class="item-contenido">
+                    <video src="video/port.mp4" height="200" width="500"></video>
+                </div>
+</div>
+           
+            <div class="item"
+            data-categoria="instructivo" 
+            data-etiquetas="mantenimiento" 
+            data-descripcion="Define probelmas que posee el PC">
+             <embed src="files/bv.pdf" type="application/pdf"/>
+        </div>
+
+            <div class="item"
+            data-categoria="instructivo" 
+            data-etiquetas="mantenimiento" 
+            data-descripcion="Define probelmas que posee el PC">
+            <embed src="files/most.pdf" type="application/pdf"/>
+        </div>
+        </section>
+    </div>
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
